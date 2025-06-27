@@ -1,3 +1,12 @@
+use std::i32;
+
+struct Args {
+    task: String,
+    priority: i32,
+    due_date: String,
+}
+
 fn main() {
-    println!("Hello, world!");
+    println!("Enter a to do list item:");
+
 }
